@@ -14,7 +14,7 @@ try {
 // exit('ok');
 
 
-$sql = 'SELECT * FROM post_table';
+$sql = 'SELECT * FROM post_table ORDER BY id DESC LIMIT 6';
 
 $stmt = $pdo->prepare($sql);
 $status = $stmt->execute();
