@@ -2,16 +2,6 @@
 
 $msg ="";
 
-if(
-  !isset($_POST['name'])||$_POST['name']==""||
-  !isset($_POST['text'])||$_POST['text']==""||
-  !isset($_POST['image'])||$_POST['image']==""
-
-){
-  // exit('入力してください');
-  
-}
-
 // var_dump($_POST['name']);
 // exit();
 if (isset($_POST['upload'])){
